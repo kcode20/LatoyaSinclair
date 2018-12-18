@@ -1,0 +1,56 @@
+body {
+	margin: 0;
+	height: 100%;
+}
+canvas {
+	position: relative;
+	background-image: linear-gradient(
+		bottom,
+		rgb(105, 173, 212) 0%,
+		rgb(23, 82, 145) 84%
+	);
+	background-image: -o-linear-gradient(
+		bottom,
+		rgb(105, 173, 212) 0%,
+		rgb(23, 82, 145) 84%
+	);
+	background-image: -moz-linear-gradient(
+		bottom,
+		rgb(105, 173, 212) 0%,
+		rgb(23, 82, 145) 84%
+	);
+	background-image: -webkit-linear-gradient(
+		bottom,
+		rgb(105, 173, 212) 0%,
+		rgb(23, 82, 145) 84%
+	);
+	background-image: -ms-linear-gradient(
+		bottom,
+		rgb(105, 173, 212) 0%,
+		rgb(23, 82, 145) 84%
+	);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0, rgb(105, 173, 212)),
+		color-stop(0.84, rgb(23, 82, 145))
+	);
+	background-image: url(../merryChristmas.png);
+	height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.centered {
+	position: absolute;
+	text-align: center;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: 'Cormorant Upright', serif;
+	font-size: 35pt;
+	color: white;
+}
